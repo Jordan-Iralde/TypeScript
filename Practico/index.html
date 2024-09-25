@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContadorDePuntos</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <div class="App">
+        <div class="Equipo">
+            <h2>Equipo_A</h2>
+            <input type="number" id="Handball_A" placeholder="Handball">
+            <input type="number" id="Resistencia_A" placeholder="Resistencia">
+            <input type="number" id="Ajedrez_A" placeholder="Ajedrez">
+            <button onclick="AgregarPuntos('Equipo_A')">Agregar Puntos</button>
+        </div>
+        <div class="Equipo">
+            <h2>Equipo B</h2>
+            <input type="number" id="Handball_B" placeholder="Handball">
+            <input type="number" id="Resistencia_B" placeholder="Resistencia">
+            <input type="number" id="Ajedrez_B" placeholder="Ajedrez">
+            <button onclick="AgregarPuntos('Equipo_B')">Agregar Puntos</button>
+        </div>
+
+        <button onclick="MostrarResultados()">Mostrar Resultados</button>
+    </div>
+    <script src="typescript.js"></script>
+</body>
+</html>
