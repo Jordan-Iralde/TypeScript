@@ -1,9 +1,9 @@
-var Handball = document.getElementById(Handball_A);
+var Handball = document.getElementById("Handball_A");
 var Resistencia = document.getElementById("Resistencia_A");
 
 function AgregarPuntos() {
-    var TotalPuntajes = Handball_A + Resistencia_A;
-    console.log(TotalPuntajes);
+    var TotalPuntajes = Handball + Resistencia;
+    console.log("El total es", TotalPuntajes);
 }
 
 console.log("hola");
