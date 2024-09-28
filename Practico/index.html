@@ -10,17 +10,17 @@
     <div class="App">
         <div class="Equipo">
             <h2>Equipo_A</h2>
-            <input type="number" id="Handball_A" placeholder="Handball">
+            <input type="number" id="Handball_A" placeholder="Handball" required>
             <input type="number" id="Resistencia_A" placeholder="Resistencia">
             <input type="number" id="Ajedrez_A" placeholder="Ajedrez">
-            <button onclick="AgregarPuntos()">Agregar Puntos</button>
+            <button onclick="AgregarPuntos()" class="BotonPuntos">Agregar Puntos</button>
         </div>
         <div class="Equipo">
             <h2>Equipo B</h2>
             <input type="number" id="Handball_B" placeholder="Handball">
             <input type="number" id="Resistencia_B" placeholder="Resistencia">
             <input type="number" id="Ajedrez_B" placeholder="Ajedrez">
-            <button onclick="AgregarPuntos('Equipo_B')">Agregar Puntos</button>
+            <button onclick="AgregarPuntos()">Agregar Puntos</button>
         </div>
 
         <button onclick="MostrarResultados()">Mostrar Resultados</button>
