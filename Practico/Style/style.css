@@ -1,0 +1,82 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Color más suave */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 900px; /* Mayor ancho para más espacio */
+    margin-bottom: 20px;
+}
+
+/* Estilos de los Equipos */
+.Equipo {
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 15px; /* Bordes más redondeados */
+    padding: 30px; /* Más espacio interno */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+    width: 280px; /* Tamaño ajustado */
+    text-align: center;
+}
+
+.Equipo h2 {
+    color: #007bff;
+    font-size: 24px; /* Tamaño de fuente más grande */
+}
+
+/* Estilos de los Inputs */
+input[type="number"] {
+    width: 90%;
+    padding: 12px; /* Mayor padding */
+    margin: 10px 0;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Estilos de los Botones */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Mayor padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s; /* Añadido efecto de transformación */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra en el botón */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Estilo del texto que cambia */
+h1 {
+    cursor: pointer;
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h1:hover {
+    color: #007bff;
+}
