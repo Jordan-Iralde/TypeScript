@@ -9,17 +9,25 @@
 <body>
     <div class="App">
         <div class="Equipo">
-            <h2>Equipo_A</h2>
-            <input type="number" id="Handball_A" placeholder="Handball" required>
-            <input type="number" id="Resistencia_A" placeholder="Resistencia">
-            <input type="number" id="Ajedrez_A" placeholder="Ajedrez">
+            <!-- Con el ID del equipo 1 se puede redirigir al usuario con el equipo ganador -->
+            <h2 id="Equipo1">Equipo_A</h2>      
+            <label for="">Handball</label>
+            <input type="number" id="Handball_A" value="0">
+            <label for="">Resistencia</label>
+            <input type="number" id="Resistencia_A" value="0">
+            <label for="">Ajedrez</label>
+            <input type="number" id="Ajedrez_A" value="0">
             <button onclick="AgregarPuntos()" class="BotonPuntos">Agregar Puntos</button>
         </div>
         <div class="Equipo">
-            <h2>Equipo B</h2>
-            <input type="number" id="Handball_B" placeholder="Handball">
-            <input type="number" id="Resistencia_B" placeholder="Resistencia">
-            <input type="number" id="Ajedrez_B" placeholder="Ajedrez">
+            <!-- Con el ID del equipo 1 se puede redirigir al usuario con el equipo ganador -->
+            <h2 id="Equipo2">Equipo B</h2>
+            <label for="">Handball</label>
+            <input type="number" id="Handball_B" value="0">
+            <label for="">Resistencia</label>
+            <input type="number" id="Resistencia_B" value="0">
+            <label for="">Ajedrez</label>
+            <input type="number" id="Ajedrez_B" value="0">
             <button onclick="AgregarPuntos()">Agregar Puntos</button>
         </div>
 
