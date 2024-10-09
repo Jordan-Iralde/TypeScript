@@ -4,7 +4,24 @@ var Ganador = document.getElementById("Ganador");
 var PuntosNegra = document.getElementById("PuntosNegra")
 var PuntosRoja = document.getElementById("PuntosRoja")
 var Disciplina = document.getElementById("Disciplina")
+/*              AGREGAR
 
+const diccionario = {
+    valorA: 2,
+    valorB: 3,
+    valorC: 0,
+    valorAB: 2,
+    valorBB: 2,
+    valorCB: 0
+};
+
+const maxKey = Object.keys(diccionario).reduce((a, b) => diccionario[a] > diccionario[b] ? a : b);
+
+console.log(maxKey);
+
+
+
+*/
 
 function AgregarPuntos() {
     var Handball = document.getElementById("Handball_A").value;
