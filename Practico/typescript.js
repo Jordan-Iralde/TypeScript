@@ -1,5 +1,10 @@
 //Primero que nada necesito saber como obtener un valor de un input en js
 //Eso se hace con document.getElementByID(Id).value como STR;
+var Ganador = document.getElementById("Ganador");
+var PuntosNegra = document.getElementById("PuntosNegra")
+var PuntosRoja = document.getElementById("PuntosRoja")
+var Disciplina = document.getElementById("Disciplina")
+
 
 function AgregarPuntos() {
     var Handball = document.getElementById("Handball_A").value;
@@ -17,15 +22,19 @@ function AgregarPuntos() {
     var TotalPuntajesA = parseInt(Handball) + parseInt(Resistencia) + parseInt(Ajedrez);
     var TotalPuntajesB = parseInt(HandballB) + parseInt(ResistenciaB) + parseInt(AjedrezB);
     //Con parseInt o parseFloat convierto STR a numeros y los sumo
-    
+    PuntosNegra.innerHTML = "Puntos de la Negra: " + TotalPuntajesA
+    PuntosRoja.innerHTML = "Puntos de la Roja: " + TotalPuntajesB
+
+    Disciplina.innerHTML = "Disciplina con mas Puntos es: " + Math.max(Handball, Resistencia, Ajedrez, HandballB, ResistenciaB, AjedrezB)
+
     if (TotalPuntajesA > TotalPuntajesB){
-        console.log("Gano la Negra")
+        Ganador.innerHTML = "Gano la tribu... negra"
     }
     else if (TotalPuntajesB > TotalPuntajesA){
-        console.log("Gano la Roja")
+        Ganador.innerHTML = "Gano la tribu... roja"
     }
     else    {
-        console.log("Empate")
+        Ganador.innerHTML = "Empate"
     }
 }
 
