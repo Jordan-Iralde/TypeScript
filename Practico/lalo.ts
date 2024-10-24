@@ -1,5 +1,22 @@
+interface Puntajes {
+    Handball: number;
+    Resistencia: number;
+    Ajedrez: number;
+    HandballB: number;
+    ResistenciaB: number;
+    AjedrezB: number;
+}
+interface Equipo {
+    Handball: number;
+    Resistencia: number;
+    Ajedrez: number;
+    HandballB: number;
+    ResistenciaB: number;
+    AjedrezB: number;
+}
+
 function AgregarPuntoss(): [number, number] {
-    const diccionario: { [key: string]: number } = {
+    const diccionario: Puntajes = {
         Handball: parseInt((document.getElementById("Handball_A") as HTMLInputElement).value) || 0,
         Resistencia: parseInt((document.getElementById("Resistencia_A") as HTMLInputElement).value) || 0,
         Ajedrez: parseInt((document.getElementById("Ajedrez_A") as HTMLInputElement).value) || 0,
@@ -22,7 +39,6 @@ function AgregarPuntoss(): [number, number] {
     const TotalPuntajesA: number = Handball + Resistencia + Ajedrez;
     const TotalPuntajesB: number = HandballB + ResistenciaB + AjedrezB;
 
-    const Ganador = document.getElementById("Ganador") as HTMLElement;
     const PuntosNegra = document.getElementById("PuntosNegra") as HTMLElement;
     const PuntosRoja = document.getElementById("PuntosRoja") as HTMLElement;
     const Disciplina = document.getElementById("Disciplina") as HTMLElement;

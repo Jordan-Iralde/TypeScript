@@ -21,7 +21,16 @@ body {
 /* Estilos de los Equipos */
 .Equipo {
     background-color: #ffffff;
-    border: 2px solid #007bff;
+    border: 2px solid #ff0000;
+    border-radius: 15px; /* Bordes más redondeados */
+    padding: 30px; /* Más espacio interno */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+    width: 280px; /* Tamaño ajustado */
+    text-align: center;
+}
+.Equipo1 {
+    background-color: #ffffff;
+    border: 2px solid #000000;
     border-radius: 15px; /* Bordes más redondeados */
     padding: 30px; /* Más espacio interno */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más suave */
@@ -30,7 +39,7 @@ body {
 }
 
 .Equipo h2 {
-    color: #007bff;
+    color: #ff0000;
     font-size: 24px; /* Tamaño de fuente más grande */
 }
 
@@ -39,14 +48,14 @@ input[type="number"] {
     width: 90%;
     padding: 12px; /* Mayor padding */
     margin: 10px 0;
-    border: 2px solid #007bff;
+    border: 2px solid #000000;
     border-radius: 5px;
     font-size: 16px;
     transition: border-color 0.3s;
 }
 
-input[type="number"]:focus {
-    border-color: #0056b3;
+input[type="number"]:hover {
+    border-color: #6e0f0f;
     outline: none;
 }
 
