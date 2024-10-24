@@ -16,7 +16,7 @@ En el código principal, crea instancias para ambos equipos y registra algunos p
 | **Tarea**            | **Hacer**            | **Haciendo**          | **Hecho**             |
 |----------------------|----------------------|-----------------------|-----------------------|
 | Hacer Repositorio    |                      |                       | :white_check_mark:    |
-| Obtener Puntajes     |                      | :white_check_mark:    |                       |
-| Indicar Mejor Equipo |:hourglass_flowing_sand:|                     |                       |
-| Mejor Punt. Individu.|:hourglass_flowing_sand:                      |                       |
-| Clase Competencia    |                      |                       |                       |
+| Obtener Puntajes     |                      |                       | :white_check_mark:    |
+| Indicar Mejor Equipo |                      |                       | :white_check_mark:    |
+| Mejor Punt. Individu.|                      |                       | :white_check_mark:    |
+| Clase Competencia    |:hourglass_flowing_sand:|                     |                       |
