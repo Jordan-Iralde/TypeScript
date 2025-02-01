@@ -11,6 +11,13 @@ const pi = 3.14;
 // Comentarios      console.log() == print()
 
 /* Multilinea
+
+Variables y Tipos de Datos: 
+var
+let
+const, 
+tipos primitivos (números, cadenas, booleanos, null, undefined, symbol).
+
 +, -, *, /, &
 &&(and) || (or) -
 */
